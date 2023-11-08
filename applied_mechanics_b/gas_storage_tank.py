@@ -57,7 +57,7 @@ def find_next_standard_bolt(bolt_diameter):
     return "No standard bolt size found larger than the provided diameter."
 
 
-print(f'Wind load: {wind_load} N')
+print(f'Wind load: {round(wind_load,2)} N')
 print(f'Bolt diameter calculated: {round(bolt_diameter, 2)} mm')
 result = find_next_standard_bolt(bolt_diameter)
 print(result)
